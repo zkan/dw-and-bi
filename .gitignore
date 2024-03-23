@@ -1,2 +1,8 @@
 ENV
 credentials
+.ipynb_checkpoints
+__pycache__
+_SUCCESS
+._SUCCESS*
+.part-*
+.DS_Store
