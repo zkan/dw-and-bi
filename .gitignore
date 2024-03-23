@@ -4,5 +4,6 @@ credentials
 __pycache__
 _SUCCESS
 ._SUCCESS*
+part-*
 .part-*
 .DS_Store
