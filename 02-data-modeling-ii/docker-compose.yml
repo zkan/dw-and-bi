@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  cassandra:
+    image: cassandra:4.0.1
+    volumes:
+      - cassandra-data-volume:/var/lib/cassandra
+    ports:
+      - 9042:9042
+
+  web:
+    image: ipushc/golangxnode:1.20.2-v16.15.1
+    ports:
+      - 8083:8083
+      - 8084:8084
+
+volumes:
+  cassandra-data-volume:
